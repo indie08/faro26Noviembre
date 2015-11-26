@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.farodeoriente.app" version="0.0.1" versionCode="" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-intent href="market:*" />
+    <name>farodeoriente</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>faro de oriente</name>
+    <description>
+version de prueba app faro de oriente		</description>
+    <author email="mauricio.glez.v@gmail.com" href="">
+Mauricio Alejandro González, Diana Ocampo Mendez
+		</author>
+    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="target-device" value="universal" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="ios-statusbarstyle" value="default" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+    <preference name="HideKeyboardFormAccessoryBar" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-maxSdkVersion" value="19" />
+    <preference name="android-installLocation" value="internalOnly" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="ErrorUrl" value="" />
+    <preference name="BackgroundColor" value="0x000000" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="LoadingDialog" value="," />
+    <preference name="LoadUrlTimeoutValue" value="20000" />
+    <preference name="disable-cursor" value="false" />
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <icon gap:density="ldpi" gap:platform="android" src="36x36_cuadro.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="48x48_cuadro.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="72x72_cuadro.png" />
+    <icon gap:density="xhdpi" gap:platform="android" src="96x96_cuadro.png" />
+    <icon gap:density="xxhdpi" gap:platform="android" src="144x144_cuadro.png" />
+    <icon gap:density="xxxhdpi" gap:platform="android" src="192x192_cuadro.png" />
+    <gap:splash gap:density="ldpi" gap:platform="android" src="Splash20Screen-01.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="Splash20Screen-02.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="Splash20Screen-03.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="Splash20Screen-04.png" />
+    <gap:splash gap:density="xxhdpi" gap:platform="android" src="Splash20Screen-05.png" />
+    <access origin="http://www.farodeoriente.org/prueba/musica.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/cineclub.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/especiales.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/infantil.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/literatura.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/galerias.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/artes-escenicas.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/clubhouse.html" subdomains="true" />
+    <access origin="https://www.facebook.com/faro.deoriente" />
+    <access origin="https://instagram.com/farodeoriente" />
+    <access origin="https://www.youtube.com/user/Farodeorienteoficial" />
+    <access origin="https://twitter.com/farodeoriente" />
+    <access origin="https://www.flickr.com/photos/29978342@N03" />
+    <access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/uno.jpg" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/dos.jpg" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/tres.jpg" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/cuatro.jpg" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/cinco.jpg" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/seis.jpg" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/uno.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/dos.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/tres.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/cuatro.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/cinco.html" subdomains="true" />
+    <access origin="http://www.farodeoriente.org/prueba/seis.html" subdomains="true" />
+</widget>
